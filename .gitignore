@@ -15,6 +15,7 @@ imgui.ini
 saves/*
 randomizer/*
 2S2HTimeSplitData.json
+mods/*
 
 mm/libultraship/extern/Debug/ImGui.lib
 
