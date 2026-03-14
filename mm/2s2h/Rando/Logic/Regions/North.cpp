@@ -289,7 +289,7 @@ static RegisterShipInitFunc initFunc([]() {
             EXIT(ENTRANCE(GROTTOS, 23),                     ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 0), RANDO_EVENTS[RE_CLEARED_SNOWHEAD_TEMPLE]),
             EXIT(ENTRANCE(MOUNTAIN_SMITHY, 0),              ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 1), true),
             EXIT(ENTRANCE(PATH_TO_GORON_VILLAGE_WINTER, 0), ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 2), true),
-            // TODO: When it's spring you need goron mask or zora mask instead? 
+            // TODO: When it's spring you need goron mask or zora mask instead?
             EXIT(ENTRANCE(GORON_GRAVERYARD, 0),             ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 3), HAS_ITEM(ITEM_LENS_OF_TRUTH) && HAS_MAGIC),
             EXIT(ENTRANCE(PATH_TO_SNOWHEAD, 0),             ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 4), true),
             EXIT(ENTRANCE(PATH_TO_MOUNTAIN_VILLAGE, 1),     ENTRANCE(MOUNTAIN_VILLAGE_WINTER, 6), true),
